@@ -1,0 +1,24 @@
+[{
+  "name": "Certyfikaty-ogólne",
+  "pattern": "Ubezpieczony:? *\n?(Imię i nazwisko)? *([A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ -]+[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ])",
+  "page": 1,
+  "parenthesis": false,
+  "revert": true,
+  "postfix": "_certyfikat.pdf"
+},
+{
+  "name": "Generali NNW-szkolne",
+  "pattern": "osoby: *\n?([A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ -]+[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ])",
+  "page": 1,
+  "parenthesis": true,
+  "revert": true,
+  "postfix": "_certyfikat.pdf"
+},
+{
+  "name": "Listy powitalne",
+  "pattern": "Sz\\.P\\. +([A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ -]+[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ])",
+  "page": 1,
+  "parenthesis": false,
+  "revert": true,
+  "postfix": "_list powitalny.pdf"
+}]

@@ -23,7 +23,7 @@ import static javax.swing.SwingUtilities.invokeLater;
 /**
  * Program's starting class
  */
-public final class Main
+public class Main
 {
 	/**
 	 * Program's starting point
@@ -31,14 +31,7 @@ public final class Main
 	 * @param args - program's arguments
 	 */
 	public static void main(String[] args)
-	{
-		invokeLater(() -> {
-			new Descriptor();
-		});
+	{ 
+		invokeLater(() -> new Descriptor());
 	}
-	
-	/**
-	 * No instances allowed
-	 */
-	private Main() {}
 }
